@@ -45,7 +45,7 @@ P.S. **PLEASE** look at the release notes before downloading! :smile:
   * You can use IDE or clone from console:
   `git clone https://github.com/xstmas/Thermos-1.git`
 * Creating the workspace
-  * Update modules: `./git submodule update --init --recursive`
+  * Update modules: `git submodule update --init --recursive`
   * To create the workspace just run the command: `./gradlew -PforgeBuildNumber='1614' setupCauldron`
   * To create the patches with the changes made just run: `./gradlew -PforgeBuildNumber='1614' genPatches`
 * Building
