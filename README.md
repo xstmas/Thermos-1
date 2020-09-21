@@ -8,7 +8,6 @@ This project is dedicated to renewing the ability for Minecraft servers to use n
 ![Thermos](thermos_icon.png)
 <!--- ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png) --->
 
-[![Build Status](https://travis-ci.com/MCImaginarium/Thermos.svg?branch=master)](https://travis-ci.com/mcimaginarium/Thermos)
 ![Minecraft Forge v10.13.4.1614][forge]
 ![Minecraft v1.7.10][mc]
 ![Java JDK v1.8][java]
@@ -26,26 +25,14 @@ Advantages over KCauldron:
 + Dupe glitch fixes
 ---
 
-## Installation
-Click [here](https://mcimaginarium.github.io//Thermos/install)
-
----
 ## Downloads
-You can download the pre-built packages from [here](https://github.com/mcimaginarium/Thermos/releases). 
+You can download the pre-built packages from [here](https://github.com/xstmas/Thermos-1/releases). 
 
 **Thermos is still in beta and you may encounter issues in using it with your server. You have been warned!**
 
 P.S. **PLEASE** look at the release notes before downloading! :smile:
 
 ---
-## Donate/Support
-
-N\A
-
----
-## Contributing
-
-Please read the [guide](https://mcimaginarium.github.io//Thermos/contributing) on how to contribute - Thermos always needs improvements :smile: 
 
 ---
 ## Build Requirements
@@ -56,8 +43,9 @@ Please read the [guide](https://mcimaginarium.github.io//Thermos/contributing) o
 ## Setup the Workspace
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/mcimaginarium/Thermos.git`
+  `git clone https://github.com/xstmas/Thermos-1.git`
 * Creating the workspace
+  * Update modules: `git submodule update --init --recursive`
   * To create the workspace just run the command: `./gradlew -PforgeBuildNumber='1614' setupCauldron`
   * To create the patches with the changes made just run: `./gradlew -PforgeBuildNumber='1614' genPatches`
 * Building
