@@ -397,11 +397,11 @@ publishing {
                     resolveStrategy = Closure.DELEGATE_FIRST
 					name 'Thermos'
                     description 'Free (as in "Free speech") Forge and Bukkit compatible Minecraft server'
-                    url 'https://github.com/MCImaginarium/Thermos'
+                    url 'https://github.com/xstmas/Thermos-1'
                     licenses {
                         license {
                             name 'MIT License'
-                            url 'https://raw.githubusercontent.com/MCImaginarium/Thermos/master/LICENSE'
+                            url 'https://raw.githubusercontent.com/xstmas/Thermos-1/master/LICENSE'
                             distribution 'repo'
                         }
                     }
@@ -418,9 +418,9 @@ publishing {
                         }
                     }
                     scm {
-                        url 'https://github.com/MCImaginarium/Thermos'
-                        connection 'https://github.com/MCImaginarium/Thermos.git'
-                        developerConnection 'https://github.com/MCImaginarium/Thermos.git'
+                        url 'https://github.com/xstmas/Thermos-1'
+                        connection 'https://github.com/xstmas/Thermos-1.git'
+                        developerConnection 'https://github.com/xstmas/Thermos-1.git'
                     }
 					repositories {
 					    repository {
